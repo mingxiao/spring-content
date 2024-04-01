@@ -1,5 +1,6 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    // "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "image": "mingxiao10016/ming-spring-image:latest",
     "features": {
         // Installs `tanzu` cli and other cli tools needed to work with k8s.
         // Note: experimental alfa release! Only works on AMD architectures (Apple M1 chips not yet supported)
@@ -29,6 +30,9 @@
     "updateContentCommand": "echo updateContentCommand && sleep 5",
     "postCreateCommand": "echo postCreateCommand && sleep 5",
     "postStartCommand": "echo postStartCommand && sleep 5",
-    "postAttachCommand": "echo postAttachCommand && sleep 5"
+    "postAttachCommand": "echo postAttachCommand && sleep 5",
+    "customizations": {
+        "vscode": {"extensions": ["vmware.tanzu-dev-tools"]}
+    }
 
 }
