@@ -1,6 +1,7 @@
 {
     // "image": "mcr.microsoft.com/devcontainers/base:jammy",
-    "image": "mingxiao10016/ming-spring-image:latest",
+    "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+    // "image": "mingxiao10016/ming-spring-image:latest",
     "features": {
         // Installs `tanzu` cli and other cli tools needed to work with k8s.
         // Note: experimental alfa release! Only works on AMD architectures (Apple M1 chips not yet supported)
