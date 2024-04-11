@@ -30,7 +30,7 @@
     "onCreateCommand": "echo onCreateCommand && sleep 5",
     "updateContentCommand": "echo updateContentCommand && sleep 5",
     "postCreateCommand": "echo postCreateCommand && sleep 5",
-    "postStartCommand": "echo postStartCommand && sleep 5",
+    "postStartCommand": "echo postStartCommand > /tmp/postStart.txt && sleep 5",
     "postAttachCommand": "echo postAttachCommand && sleep 5",
     "customizations": {
         "vscode": {"extensions": ["vmware.tanzu-dev-tools"]}
