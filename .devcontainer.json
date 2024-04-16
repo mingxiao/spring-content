@@ -26,7 +26,7 @@
     // "otherPortsAttributes": {
     //     "onAutoForward": "silent"
     // }
-    "initializeCommand": "echo initializeCommand && sleep 5",
+    "initializeCommand": "echo initializeCommand > /tmp/initialize.txt && sleep 5",
     "onCreateCommand": "echo onCreateCommand && sleep 5",
     "updateContentCommand": "echo updateContentCommand && sleep 5",
     "postCreateCommand": "echo postCreateCommand && sleep 5",
